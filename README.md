@@ -8,7 +8,7 @@ Takes an array of components and allows duplicates later in the list to overwrit
 ## Installation
 
 ```
-npm install component-loader-extends --save
+npm install --save component-loader-extends
 ```
 
 ## Usage

@@ -31,7 +31,7 @@ describe('component-loader-extends', function () {
   it('should return both input components', function (done) {
     var extendComponents = rewire('..')
     extendComponents.__set__('require', createMockRequire())
-    assert.deepEqual(extendComponents([ './a.js', './b.js',], logger).length, 2)
+    assert.deepEqual(extendComponents([ './a.js', './b.js' ], logger).length, 2)
     done()
   })
 
