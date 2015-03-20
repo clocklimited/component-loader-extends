@@ -1,0 +1,29 @@
+{
+  "name": "component-loader-extends",
+  "description": "Takes an array of components and allows duplicates later in the list to overwrite earlier components.",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "istanbul check-coverage --statements 85 --branches 70 --functions 100 --lines 90 && rm -rf coverage"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Paul Serby <paul.serby@clock.co.uk>",
+  "license": "New BSD",
+  "devDependencies": {
+    "istanbul": "^0.3.8",
+    "jscs": "^1.11.3",
+    "jshint": "^2.5.6",
+    "mocha": "^2.2.1",
+    "rewire": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:serby/component-loader-extends.git"
+  }
+}
