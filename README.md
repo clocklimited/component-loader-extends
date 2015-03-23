@@ -2,8 +2,8 @@
 
 Takes an array of components and allows duplicates later in the list to overwrite earlier components.
 
-[![build status](https://secure.travis-ci.org/serby/component-loader-extends.svg)](http://travis-ci.org/serby/component-loader-extends)
-[![dependency status](https://david-dm.org/serby/component-loader-extends.svg)](https://david-dm.org/serby/component-loader-extends)
+[![build status](https://secure.travis-ci.org/clocklimited/component-loader-extends.svg)](http://travis-ci.org/clocklimited/component-loader-extends)
+[![dependency status](https://david-dm.org/clocklimited/component-loader-extends.svg)](https://david-dm.org/clocklimited/component-loader-extends)
 
 ## Installation
 
