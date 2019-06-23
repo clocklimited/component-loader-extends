@@ -3,7 +3,7 @@
 Takes an array of components and allows duplicates later in the list to overwrite earlier components.
 
 [![build status](https://secure.travis-ci.org/clocklimited/component-loader-extends.svg)](http://travis-ci.org/clocklimited/component-loader-extends)
-[![dependency status](https://david-dm.org/clocklimited/component-loader-extends.svg)](https://david-dm.org/clocklimited/component-loader-extends)
+[![dependency status](https://david-dm.org/clocklimited/component-loader-extends.svg)](https://david-dm.org/clocklimited/component-loader-extends) [![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/component-loader-extends.svg)](https://greenkeeper.io/)
 
 ## Installation
 
